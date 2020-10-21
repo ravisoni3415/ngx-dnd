@@ -94,7 +94,7 @@ export class DraggableDirective implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
-    this.drakesService.removeDraggable(this);
+//     this.drakesService.removeDraggable(this);
   }
 
   updateElements(): void {
